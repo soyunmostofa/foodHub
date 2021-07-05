@@ -1,0 +1,56 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: #575757;
+    
+}
+h1 span{
+    color: #FB9249;
+}
+h2{
+    color: #707070;
+    font-size: 40px;
+}
+p{
+    color:#868686;
+    font-weight: 500px;
+    font-size: large;
+    padding-bottom: 30px;
+}
+.button{
+
+    text-decoration: none;
+    margin-top: 100px;
+    text-align: center;
+    padding: 15px 30px;
+    color: whitesmoke;
+    border-radius: 50px;
+    background:linear-gradient(90deg, #FB984C,#FD4D30)
+}
+section{
+    display: flex;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    
+}
+.About{
+    background: url(images/shapes/7.png);
+    padding-left: 5%; 
+    
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin:auto;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+
+#im{
+    width: 20%;
+    padding-top: 40px;
+}
