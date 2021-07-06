@@ -1,4 +1,5 @@
 .body{
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 h1{
@@ -18,6 +19,7 @@ p{
     font-weight: 500px;
     font-size: large;
     padding-bottom: 30px;
+    justify-content:center;
 }
 .button{
 
@@ -31,8 +33,9 @@ p{
 }
 section{
     display: flex;
-    margin-top: 100px;
-    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
     
 }
 .About{
@@ -53,4 +56,64 @@ section{
 #im{
     width: 20%;
     padding-top: 40px;
+}
+
+.menu-text{
+    text-align: center;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    
+}
+.head{
+    justify-content:center;
+}
+.box{
+    width: 100%;
+    display: flex;
+   justify-content:center;
+    
+}
+.card{
+    width: 25%;
+    text-align: center;
+    margin: 20px ;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 30px; 
+
+}
+
+
+
+.card img{
+    width: 100%;
+}
+
+
+
+.head{
+    text-align: center;
+}
+
+footer{
+    background: black;
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+    font-size: xx-large;
+}
+h3{
+    color: cornsilk;
+    font-size: 25px;
+    
+   
+}
+h3 span{
+    color: chocolate;
+}
+h4{
+    font-size: 20px;
+    flood-color: black;
 }
